@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SheCodes</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <style>
+      :root {
+        --primary-color: rgb(242, 118, 199);
+        --accent-color: rgb(135, 33, 99);
+        --border: 1px solid rgb(192, 85, 214);
+        --transperent-color: rgb(178, 154, 183);
+      }
+      .contacts {
+        display: flex;
+        justify-content: center;
+      }
+      .contact,
+      .contacting {
+        border: var(--border);
+        padding: 20px;
+        text-decoration: none;
+        margin: 20px;
+        background-color: var(--primary-color);
+        color: white;
+      }
+      body {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      h1,
+      h2,
+      .name {
+        font-size: 30px;
+        color: var(--accent-color);
+        margin: 20px;
+      }
+      h1 {
+        font-size: 38px;
+        color: var(--accent-color);
+      }
+      h5 {
+        color: var(--transperent-color);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>
+      🎃こんにちは！<br /><br />
+      <span class="name">I'm</span>
+    </h2>
+    <h1>Khvan Nikol</h1>
+    <h5>Front-end developer, based in Japan</h5>
+    <br />
+    <div class="contacts">
+      <a href="/about/about-me.html" class="contacting"> About me</a>
+      <a href="/about/about-me.html#mail" class="contact">Contact me</a>
+    </div>
+  </body>
+</html>
